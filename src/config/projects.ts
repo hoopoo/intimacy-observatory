@@ -21,17 +21,17 @@ export const RELATED_PROJECTS: RelatedProject[] = [
   {
     id: "body-meaning",
     name: "Body Meaning",
-    url: "https://body-meaning.shiroand.co",
+    url: "https://body-meaning.shiroand.io/body-meaning",
   },
   {
     id: "meaning-layer",
     name: "Meaning Layer",
-    url: "https://meaning-layer.shiroand.co",
+    url: "https://meaning.shiroand.io",
   },
   {
     id: "market-signals",
     name: "Market Signals",
-    url: "https://market-signals.shiroand.co",
+    url: "https://book.shiroand.io/market_signals",
   },
 ];
 
