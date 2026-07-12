@@ -10,7 +10,7 @@ export const RELATED_PROJECTS: RelatedProject[] = [
     id: "intimacy-observatory",
     name: "Intimacy Observatory",
     nameJa: "親密性の観測所",
-    url: "https://intimacy-observatory.vercel.app",
+    url: "https://intimacy.shiroand.io",
   },
   {
     id: "scam-folklore",
