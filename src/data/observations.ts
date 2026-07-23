@@ -255,6 +255,7 @@ const coreObservations: ObservationInput[] = [
       "The same conversational warmth that alleviates loneliness can be weaponized at scale.",
     whyItMattersJa:
       "孤独を和らげる会話の温かさが、規模化した武器になりうる。",
+    relatedEncounterSlugs: ["happy-mail", "tinder"],
   },
   {
     id: "obs-009",
@@ -381,6 +382,7 @@ function normalizeObservation(o: ObservationInput): Observation {
     ...o,
     values: o.values ?? [],
     valueConflicts: o.valueConflicts ?? [],
+    relatedEncounterSlugs: o.relatedEncounterSlugs ?? [],
   };
 }
 

@@ -13,6 +13,7 @@ import { InstitutionalGapsSection } from "@/components/intimacy/InstitutionalGap
 import { RiskObservatorySection } from "@/components/intimacy/RiskObservatorySection";
 import { LatestObservationsSection } from "@/components/intimacy/LatestObservationsSection";
 import { LatestArticlesSection } from "@/components/intimacy/LatestArticlesSection";
+import { ClassicsOfEncounterSection } from "@/components/intimacy/ClassicsOfEncounterSection";
 
 export const metadata: Metadata = {
   title: "Intimacy Observatory — 親密性の観測所",
@@ -81,6 +82,7 @@ export default function HomePage() {
       <RiskObservatorySection />
       <LatestObservationsSection />
       <LatestArticlesSection />
+      <ClassicsOfEncounterSection />
     </div>
   );
 }

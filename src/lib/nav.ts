@@ -9,6 +9,7 @@ export type NavItem = {
 const HEADER_NAV: NavItem[] = [
   { href: "/observations", label: "Observations" },
   { href: "/articles", label: "Articles" },
+  { href: "/classics-of-encounter", label: "Classics of Encounter" },
   { href: "/questions", label: "Questions" },
   { href: "/#relationship-map", label: "Relationship Map" },
   { href: "/#machine-model", label: "Machine's Model" },
@@ -17,6 +18,7 @@ const HEADER_NAV: NavItem[] = [
 
 const FOOTER_NAV: NavItem[] = [
   { href: "/articles", label: "Articles" },
+  { href: "/classics-of-encounter", label: "Classics of Encounter" },
   { href: "/about", label: "About" },
   { href: "/related-projects", label: "Related Projects" },
   { href: "/privacy", label: "Privacy" },

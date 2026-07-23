@@ -21,6 +21,7 @@ export const extendedArticles: Article[] = [
       "non-marriage-due-to-child-rearing-cost",
     ],
     relatedProjects: ["intimacy-observatory", "market-signals"],
+    relatedEncounterSlugs: ["pairs", "tokyo-enmusubi"],
     openQuestions: [
       "q-marriage-what-value",
       "q-marriage-whose-value",
@@ -419,6 +420,7 @@ export const extendedArticles: Article[] = [
       "elderly-daily-ai-after-bereavement",
     ],
     relatedProjects: ["scam-folklore", "intimacy-observatory"],
+    relatedEncounterSlugs: ["happy-mail", "tinder"],
     openQuestions: [
       "q-ai-understanding",
       "q-ai-love-or-billing",

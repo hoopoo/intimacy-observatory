@@ -62,6 +62,7 @@ export const valueObservations: ObservationInput[] = [
       "Freedom is valued as intimacy outcome, not as absence of bond.",
     whyItMattersJa:
       "自由は絆の欠如ではなく、親密性の成果として評価される。",
+    relatedEncounterSlugs: ["pairs", "tapple"],
   },
   {
     id: "obs-080",
@@ -92,6 +93,7 @@ export const valueObservations: ObservationInput[] = [
       "Institutional marriage is often an economic product before it is emotional narrative.",
     whyItMattersJa:
       "制度的結婚は、感情叙事より先に経済商品であることが多い。",
+    relatedEncounterSlugs: ["pairs", "tokyo-enmusubi"],
   },
   {
     id: "obs-081",

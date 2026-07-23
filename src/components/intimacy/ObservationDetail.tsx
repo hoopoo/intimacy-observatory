@@ -12,6 +12,7 @@ import {
   labelForValue,
   labelForValueConflict,
 } from "@/lib/observations";
+import { getEncountersForObservation } from "@/lib/encounter-classics";
 import { RELATED_PROJECTS } from "@/config/projects";
 import { formatDate } from "@/lib/intimacy-display";
 import { StatusBadge } from "@/components/intimacy/StatusBadge";
@@ -50,6 +51,10 @@ function ChipList({ items, labelFn }: { items: string[]; labelFn: (id: string) =
 
 export function ObservationDetail({ observation }: { observation: Observation }) {
   const related = getRelatedObservations(observation);
+  const relatedEncounters = getEncountersForObservation(
+    observation.slug,
+    observation.relatedEncounterSlugs,
+  );
 
   return (
     <article className="flex flex-col gap-8">
@@ -170,6 +175,27 @@ export function ObservationDetail({ observation }: { observation: Observation })
                   className="group flex items-center justify-between rounded-sm border border-[var(--border)] p-4 hover:border-[var(--ink-faint)]"
                 >
                   <span className="text-sm font-medium">{o.titleJa}</span>
+                  <ArrowRight
+                    className="h-4 w-4 text-[var(--ink-faint)] group-hover:translate-x-0.5"
+                    aria-hidden
+                  />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </Section>
+      ) : null}
+
+      {relatedEncounters.length > 0 ? (
+        <Section title="Classics of Encounter / 出会いの古典と現在">
+          <ul className="flex flex-col gap-3">
+            {relatedEncounters.map((r) => (
+              <li key={r.slug}>
+                <Link
+                  href={`/classics-of-encounter/${r.slug}`}
+                  className="group flex items-center justify-between rounded-sm border border-[var(--border)] p-4 hover:border-[var(--ink-faint)]"
+                >
+                  <span className="text-sm font-medium">{r.name}</span>
                   <ArrowRight
                     className="h-4 w-4 text-[var(--ink-faint)] group-hover:translate-x-0.5"
                     aria-hidden

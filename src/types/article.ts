@@ -24,6 +24,7 @@ export type Article = {
   themes: string[];
   relatedObservationSlugs: string[];
   relatedArticleSlugs?: string[];
+  relatedEncounterSlugs?: string[];
   body: ArticleSection[];
   closingNote?: string;
   openQuestions?: string[];

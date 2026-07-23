@@ -968,6 +968,7 @@ export const extendedObservations: ObservationInput[] = [
       "Synthetic intimacy bypasses visual verification habits.",
     whyItMattersJa:
       "合成親密性が、視覚確認の習慣をすり抜ける。",
+    relatedEncounterSlugs: ["happy-mail", "tinder"],
   },
   {
     id: "obs-047",

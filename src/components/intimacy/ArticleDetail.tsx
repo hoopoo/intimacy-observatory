@@ -5,6 +5,7 @@ import {
   getRelatedArticlesForArticle,
   getRelatedObservationsForArticle,
 } from "@/lib/articles";
+import { getEncountersForArticle } from "@/lib/encounter-classics";
 import { buildQuestionFilterHref, getAllQuestions } from "@/lib/observations";
 import { RELATED_PROJECTS } from "@/config/projects";
 import {
@@ -17,6 +18,7 @@ export function ArticleDetail({ article }: { article: Article }) {
   const relatedObservations = getRelatedObservationsForArticle(article);
   const relatedArticles = getRelatedArticlesForArticle(article);
   const allQuestions = getAllQuestions();
+  const relatedEncounters = getEncountersForArticle(article.slug);
   const openQuestions = (article.openQuestions ?? [])
     .map((id) => allQuestions.find((q) => q.id === id))
     .filter(Boolean);
@@ -133,6 +135,30 @@ export function ArticleDetail({ article }: { article: Article }) {
                   className="group flex items-center justify-between rounded-sm border border-[var(--border)] p-4 hover:border-[var(--ink-faint)]"
                 >
                   <span className="text-sm font-medium">{a.title}</span>
+                  <ArrowRight
+                    className="h-4 w-4 text-[var(--ink-faint)] group-hover:translate-x-0.5"
+                    aria-hidden
+                  />
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
+
+      {relatedEncounters.length > 0 ? (
+        <section className="mt-10 border-t border-[var(--border-subtle)] pt-10">
+          <h2 className="annotation mb-5">
+            Classics of Encounter / 出会いの古典と現在
+          </h2>
+          <ul className="flex flex-col gap-3">
+            {relatedEncounters.map((r) => (
+              <li key={r.slug}>
+                <Link
+                  href={`/classics-of-encounter/${r.slug}`}
+                  className="group flex items-center justify-between rounded-sm border border-[var(--border)] p-4 hover:border-[var(--ink-faint)]"
+                >
+                  <span className="text-sm font-medium">{r.name}</span>
                   <ArrowRight
                     className="h-4 w-4 text-[var(--ink-faint)] group-hover:translate-x-0.5"
                     aria-hidden

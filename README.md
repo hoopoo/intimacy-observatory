@@ -28,6 +28,8 @@ http://localhost:3000 を開く。
 | `/observations/[slug]` | 観測詳細 |
 | `/articles` | 考察記事一覧 |
 | `/articles/[slug]` | 記事詳細 |
+| `/classics-of-encounter` | 出会いの古典と現在（Classics of Encounter） |
+| `/classics-of-encounter/[slug]` | 出会い装置の観測詳細 |
 | `/questions` | 未解決の問い |
 | `/about` | この観測所について |
 | `/related-projects` | 関連プロジェクト |

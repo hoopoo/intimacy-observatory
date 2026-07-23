@@ -35,6 +35,8 @@ export type Observation = {
   relationshipStructureJa?: string;
   values: string[];
   valueConflicts: string[];
+  /** Classics of Encounter との相互リンク */
+  relatedEncounterSlugs?: string[];
 };
 
 /** データ定義用。values / valueConflicts は省略時空配列として正規化される。 */
