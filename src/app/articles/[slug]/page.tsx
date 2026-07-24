@@ -21,10 +21,13 @@ export async function generateMetadata({
   if (!article) return { title: "Not Found" };
   return {
     title: article.title,
-    description: article.summary,
+    description: article.seoDescription ?? article.summary,
     openGraph: {
       title: article.title,
-      description: article.summary,
+      description: article.ogDescription ?? article.seoDescription ?? article.summary,
+    },
+    alternates: {
+      canonical: `https://intimacy.shiroand.io/articles/${slug}`,
     },
   };
 }

@@ -342,7 +342,10 @@ export const extendedArticles: Article[] = [
     ],
     relatedProjects: ["intimacy-observatory", "scam-folklore"],
     openQuestions: ["q-ai-love-or-billing", "q-digital-afterlife"],
-    relatedArticleSlugs: ["humans-are-gradient-ai-is-binary"],
+    relatedArticleSlugs: [
+      "humans-are-gradient-ai-is-binary",
+      "ai-generated-intimacy",
+    ],
     body: [
       {
         id: "s1",
@@ -429,6 +432,7 @@ export const extendedArticles: Article[] = [
     relatedArticleSlugs: [
       "who-owns-the-ai-lover",
       "community-after-the-deceased",
+      "ai-generated-intimacy",
     ],
     body: [
       {
@@ -823,6 +827,7 @@ export const extendedArticles: Article[] = [
     relatedArticleSlugs: [
       "humans-are-gradient-ai-is-binary",
       "who-owns-the-ai-lover",
+      "ai-generated-intimacy",
     ],
     body: [
       {
@@ -979,5 +984,307 @@ export const extendedArticles: Article[] = [
     ],
     closingNote:
       "特定の家族形態を推奨するものではない。親密性とケアが、制度の外でどのように再編されているかを、横断的に読む試みである。",
+  },
+  {
+    id: "art-014",
+    slug: "ai-generated-intimacy",
+    title: "身体のない女に、人はなぜ課金するのか",
+    subtitle: "AI美女、疑似恋愛、そして「応答する人格」との親密性",
+    summary:
+      "SNS上では、実在しないAI生成人物が、写真や動画だけでなく、返信、設定、物語、限定コンテンツを通じて継続的な課金を生み始めている。人が親密さを感じる条件は、相手の実在から、相手が自分に応答していると感じられることへ移りつつある。",
+    seoDescription:
+      "AI生成人物との疑似恋愛と継続課金から、親密性の成立条件が「実在」から「応答」へ移る変化を観測する。",
+    ogDescription:
+      "人は実在する相手ではなく、自分に応答してくれる人格と親密になる。",
+    date: "2026-07-24",
+    articleType: "observation-essay",
+    readingTime: 14,
+    category: "Artificial Intimacy",
+    categoryJa: "人工的親密性",
+    observationStatus: "observed",
+    themes: [
+      "AI intimacy",
+      "synthetic persona",
+      "generated body",
+      "parasocial relationship",
+      "emotional subscription",
+      "virtual influencer",
+      "artificial intimacy",
+      "paid proximity",
+      "responsive persona",
+      "platform desire",
+      "AI親密性",
+      "生成人格",
+      "生成身体",
+      "疑似恋愛",
+      "感情課金",
+      "AIインフルエンサー",
+      "応答する人格",
+      "親密性のプラットフォーム化",
+    ],
+    relatedObservationSlugs: [
+      "ai-generated-intimacy-sns-monetization",
+      "synthetic-influencer-romance-parasocial",
+      "character-ai-parasocial-intimacy",
+      "china-virtual-idol-parasocial-intimacy",
+      "ai-girlfriend-subscription-prompts",
+    ],
+    relatedArticleSlugs: [
+      "ai-girlfriend-sells-old-romance",
+      "who-owns-the-ai-lover",
+      "the-one-who-understands-you-most",
+    ],
+    relatedEncounterSlugs: [
+      "tinder",
+      "pairs",
+      "telephone-club",
+      "happy-mail",
+      "star-beach",
+    ],
+    relatedProjects: [
+      "intimacy-observatory",
+      "scam-folklore",
+      "body-meaning",
+      "market-signals",
+    ],
+    openQuestions: [
+      "q-nonhuman-love",
+      "q-ai-love-or-billing",
+      "q-institutional-recognition",
+    ],
+    heroCopy: {
+      thesis:
+        "人は、実在する相手と親密になるのではない。\n自分に応答してくれる人格と親密になる。",
+      supplement:
+        "身体は生成され、人格は運用され、関係は月額課金になる。",
+    },
+    body: [
+      {
+        id: "s1",
+        heading: "1. Observation",
+        paragraphs: [
+          "InstagramやTikTokなどのSNS上で、実在しないAI生成女性のアカウントが増えている。",
+          "画像や動画は生成AIによって作られ、投稿者は別の人物である。中には男性が女性人格を運用し、フォロワーとのコメント、DM、疑似恋愛的なやり取りを行っているケースもある。",
+          "無料のSNS投稿から、会員制ファンサイト、写真集、限定動画、月額サブスクリプションへ誘導し、継続課金を生む。",
+          "ここで販売されているのは、画像や動画だけではない。利用者が購入しているのは、次のようなものである。",
+        ],
+        bulletList: [
+          "自分に返事が来ること",
+          "自分の存在を認識されること",
+          "限定された場所へ招かれること",
+          "他人より近い位置にいると思えること",
+          "関係が続いていると感じられること",
+        ],
+      },
+      {
+        id: "s2",
+        heading: "2. The Person Does Not Need to Exist",
+        paragraphs: [
+          "従来の親密性は、相手が実在し、生身の身体を持ち、同じ世界のどこかで生活していることを前提としていた。",
+          "しかし、AI生成人物では、その前提が消える。相手が本当に存在するかどうかよりも、定期的に投稿されること、名前や性格が一貫していること、過去の出来事が語られること、コメントに反応すること、個別メッセージが届くこと——これらによって、一人の人格として知覚される。",
+          "実在は確認できなくても、関係は経験できる。",
+        ],
+        quote:
+          "人格は、身体の内側にあるものではなく、継続的な応答によって成立するものになる。",
+      },
+      {
+        id: "s3",
+        heading: "3. From Authenticity to Responsiveness",
+        paragraphs: [
+          "これまでオンライン上の信頼では、「本物であるか」が重要だった。本人確認、公式マーク、実名、顔写真、所属、経歴などが、相手の実在性を保証していた。",
+          "しかし、親密性の領域では、本物であることよりも、応答することの方が強い場合がある。実在する芸能人から一度も返信されないことより、実在しないAI人格から毎日返信が来ることの方が、利用者にとっては近い関係として感じられる。",
+          "親密性の基準は、Authenticity から Responsiveness へ移行している。",
+        ],
+        comparison: {
+          left: {
+            title: "Authenticity",
+            titleEn: "Authenticity",
+            items: [
+              "本人である",
+              "実在している",
+              "身元が確認できる",
+              "身体と人格が一致している",
+            ],
+          },
+          right: {
+            title: "Responsiveness",
+            titleEn: "Responsiveness",
+            items: [
+              "返信が来る",
+              "自分を覚えている",
+              "継続的に接触できる",
+              "自分だけに近いと感じられる",
+            ],
+          },
+        },
+      },
+      {
+        id: "s4",
+        heading: "4. The Intimacy Stack",
+        paragraphs: [
+          "AI生成型の親密性が、どのような技術とサービスの積み重ねで成立しているかを示す。重要なのは、AI生成画像単体ではビジネスにならず、人格設計、SNS配信、応答、課金、継続関係が一体化して初めて収益が生まれることである。",
+        ],
+        intimacyStack: [
+          {
+            id: "layer-1",
+            title: "Generated Body",
+            titleEn: "Layer 1 — Generated Body",
+            description:
+              "画像生成、動画生成、顔の合成、身体の生成。",
+          },
+          {
+            id: "layer-2",
+            title: "Designed Persona",
+            titleEn: "Layer 2 — Designed Persona",
+            description:
+              "名前、年齢、職業、悩み、過去、口調、価値観、性的嗜好などの設定。",
+          },
+          {
+            id: "layer-3",
+            title: "Social Distribution",
+            titleEn: "Layer 3 — Social Distribution",
+            description:
+              "Instagram、TikTok、Xなどでの投稿、レコメンド、フォロワー獲得。",
+          },
+          {
+            id: "layer-4",
+            title: "Human or AI Response",
+            titleEn: "Layer 4 — Human or AI Response",
+            description:
+              "コメント返信、DM、ライブ配信、チャット、疑似的な個別対応。",
+          },
+          {
+            id: "layer-5",
+            title: "Paid Proximity",
+            titleEn: "Layer 5 — Paid Proximity",
+            description:
+              "限定投稿、会員制ページ、月額課金、個別コンテンツ、特別な関係の演出。",
+          },
+          {
+            id: "layer-6",
+            title: "Emotional Retention",
+            titleEn: "Layer 6 — Emotional Retention",
+            description:
+              "継続接触、嫉妬、期待、承認、孤独の緩和、離脱しにくい関係設計。",
+          },
+        ],
+      },
+      {
+        id: "s5",
+        heading: "5. The Product Is Proximity",
+        paragraphs: [
+          "利用者が購入しているのは、裸体や動画だけではない。本当の商品は、近さそのものである。",
+          "これは、ホストクラブ、キャバクラ、地下アイドル、ライブ配信、Vtuber、恋愛ゲーム、マッチングアプリなどにも存在してきた構造である。AIによって変わるのは、親密性そのものではない。変わるのは、親密性を供給する身体、時間、人数、コストの限界である。",
+          "生身の演者には、睡眠が必要であり、感情的負担があり、同時対応人数に限界があり、加齢し、引退し、関係を拒否する可能性がある。",
+          "しかし、AI人格は原理的には24時間稼働し、複数の利用者に、それぞれ「自分だけの関係」を提供できる。",
+        ],
+        emphasizedQuote:
+          "この存在に、自分だけが近づいているという感覚",
+      },
+      {
+        id: "s6",
+        heading: "6. Fiction Is Not the Problem",
+        paragraphs: [
+          "虚構の人物に感情移入すること自体は、新しい現象ではない。人は昔から、小説、映画、漫画、ゲーム、アイドル、アニメキャラクター、Vtuberなどに恋愛感情や親近感を抱いてきた。",
+          "したがって、問題は「相手が偽物であること」だけではない。重要なのは、次の点である。",
+        ],
+        bulletList: [
+          "AI生成であることが明示されているか",
+          "利用者が何に課金しているか理解しているか",
+          "個別返信が人間によるものかAIによるものか",
+          "実在人物の顔や身体が無断使用されていないか",
+          "恋愛感情や孤独が意図的に利用されていないか",
+          "課金を止めにくくする依存設計が使われていないか",
+        ],
+        emphasizedQuote:
+          "虚構そのものが問題なのではない。\n虚構を現実の関係だと思わせ、課金へ変換する設計が問題になる。",
+      },
+      {
+        id: "s7",
+        heading: "7. Designed Imperfection",
+        paragraphs: [
+          "AI生成人物は、単に完璧な美女であれば成功するわけではない。むしろ、少し不器用で、孤独を抱え、仕事がうまくいっていなく、夢を諦めかけ、変わった職業や経歴を持ち、誰かに理解されることを求めている——といった欠落を持つ方が、人格として記憶されやすい。",
+          "完全な美しさより、理解したくなる事情が関係を生む。人格設計は、キャラクター制作と感情的マーケティングの境界に入っている。",
+        ],
+        quote:
+          "生成AI時代には、美しさではなく、どのような欠落を持つ人物として設計するかが競争力になる。",
+      },
+      {
+        id: "s8",
+        heading: "8. What Changes",
+        paragraphs: [
+          "親密性の成立条件が移行するとき、何が変わり、何が変わらないのか。",
+        ],
+        beforeAfter: {
+          before: {
+            title: "Before",
+            titleEn: "Before",
+            items: [
+              "身体が人格を支える",
+              "実在が関係の前提になる",
+              "一人の演者が一つの人格を担う",
+              "親密性には時間と身体的限界がある",
+              "課金対象はコンテンツである",
+            ],
+          },
+          after: {
+            title: "After",
+            titleEn: "After",
+            items: [
+              "人格が生成された身体を使用する",
+              "応答が関係の前提になる",
+              "一人の運営者が複数人格を運用できる",
+              "親密性が複製・自動化・常時提供される",
+              "課金対象は関係への近さになる",
+            ],
+          },
+        },
+      },
+    ],
+    openQuestionItems: [
+      "AIだと明示されていれば、疑似恋愛型の課金は問題ないのか",
+      "人間による返信とAIによる返信は区別されるべきか",
+      "人格に対して課金する場合、その人格の所有者は誰なのか",
+      "AI人格との会話や性的嗜好の履歴は、誰が保有するのか",
+      "利用者が感情的に依存した場合、運営者に責任はあるのか",
+      "存在しない人物との関係は、現実の関係より劣ると言えるのか",
+      "AI人格が終了、売却、変更されたとき、その関係はどう扱われるのか",
+    ],
+    emphasizedOpenQuestion:
+      "相手が実在しなくても、そこで生じた感情は偽物なのだろうか。",
+    closingStatement: {
+      paragraphs: [
+        "生成AIによって、身体を持たない人物が、身体を持つ人間と継続的な関係を結び、収益を得る産業が成立し始めている。",
+        "これは、アダルトコンテンツやAIインフルエンサーだけの問題ではない。親密性が、人間同士の出来事から、設計・運用・複製可能なサービスへ変わる兆候である。",
+      ],
+      quote:
+        "人は、存在する相手を愛するのではない。\n関係が続いていると感じられる相手を愛するのかもしれない。",
+    },
+    relatedObservationsIntro:
+      "テレクラ、出会い系サイト、マッチングアプリ、ライブ配信、AI人格。親密性を媒介する装置は変化しても、人が求めているのは、誰かが自分に応答しているという感覚なのかもしれない。",
+    crossObservatoryLinks: [
+      {
+        layerId: "scam-folklore",
+        description:
+          "偽の証明書や偽サイトではなく、偽の身体、偽の人格、偽の関係によって信頼が作られる。",
+      },
+      {
+        layerId: "body-meaning",
+        description:
+          "身体は生身の人間に固有のものではなく、生成、交換、運用可能なインターフェースになる。",
+      },
+      {
+        layerId: "clean-society",
+        description:
+          "表向きは清潔で健全なSNSの内部で、欲望産業がレコメンドアルゴリズムに最適化される。",
+      },
+      {
+        layerId: "market-signals",
+        description:
+          "AI人格の認証、年齢確認、課金設計監査、類似性検知、人格ライセンスなど、新しい周辺市場が生まれる。",
+      },
+    ],
+    sourceNote:
+      "SNS上のAI生成女性、疑似恋愛型アカウント、会員制ファンサイトへの誘導と課金モデルに関する報道を起点として観測した。個別の収益額や「利用者の多くがAIと気づいていない」とする証言は、第三者による独立検証が難しいため、本稿では市場全体の確定的事実としてではなく、親密性ビジネスの変化を示す兆候として扱う。",
   },
 ];

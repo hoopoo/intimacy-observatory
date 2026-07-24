@@ -39,12 +39,41 @@ export function searchableArticleText(article: Article): string {
     article.title,
     article.subtitle,
     article.summary,
+    article.category,
+    article.categoryJa,
     ...article.themes,
+    article.heroCopy?.thesis,
+    article.heroCopy?.supplement,
     ...article.body.flatMap((s) => [
       s.heading,
       ...s.paragraphs,
       s.quote,
+      s.emphasizedQuote,
+      ...(s.bulletList ?? []),
+      ...(s.comparison
+        ? [
+            s.comparison.left.title,
+            ...s.comparison.left.items,
+            s.comparison.right.title,
+            ...s.comparison.right.items,
+          ]
+        : []),
+      ...(s.beforeAfter
+        ? [
+            s.beforeAfter.before.title,
+            ...s.beforeAfter.before.items,
+            s.beforeAfter.after.title,
+            ...s.beforeAfter.after.items,
+          ]
+        : []),
+      ...(s.intimacyStack?.flatMap((l) => [l.title, l.description]) ?? []),
     ]),
+    ...(article.openQuestionItems ?? []),
+    article.emphasizedOpenQuestion,
+    ...(article.closingStatement?.paragraphs ?? []),
+    article.closingStatement?.quote,
+    ...(article.crossObservatoryLinks?.map((l) => l.description) ?? []),
+    article.sourceNote,
     article.closingNote,
   ]
     .filter(Boolean)

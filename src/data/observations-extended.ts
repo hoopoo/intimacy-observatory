@@ -1082,4 +1082,55 @@ export const extendedObservations: ObservationInput[] = [
     whyItMattersJa:
       "場所の親密性が、復興枠組みで過小評価される。",
   },
+  {
+    id: "obs-086",
+    slug: "ai-generated-intimacy-sns-monetization",
+    title: "AI-Generated Female Personas and Paid Parasocial Intimacy on SNS",
+    titleJa: "SNS上のAI生成女性人格と課金型準社会的親密性",
+    summary:
+      "Non-existent AI-generated female accounts on social platforms monetize responsiveness, recognition, and exclusive proximity through subscriptions and fan sites.",
+    summaryJa:
+      "SNS上で実在しないAI生成女性アカウントが、返信・認識・限定近接性を月額課金や会員制サイトで収益化している。",
+    date: "2026-07-24",
+    country: "Global",
+    status: "observed",
+    relationshipTypes: ["ai", "fictional-character", "platform"],
+    intimacyDimensions: [
+      "recognition",
+      "conversation",
+      "belonging",
+      "routine",
+    ],
+    lifeStages: ["young-adulthood", "midlife-separation"],
+    institutionalGaps: [
+      "platform-terms",
+      "ai-personality-ownership",
+      "disclosure-labeling",
+    ],
+    risks: [
+      "dependency-design",
+      "subscription-affection",
+      "synthetic-partner-fraud",
+    ],
+    genderDesignIssues: [
+      "binary-ai-character",
+      "gendered-product-design",
+    ],
+    relatedProjects: [
+      "intimacy-observatory",
+      "scam-folklore",
+      "body-meaning",
+      "market-signals",
+    ],
+    questions: ["q-nonhuman-love", "q-ai-love-or-billing"],
+    relatedEncounterSlugs: ["tinder", "pairs", "telephone-club", "happy-mail"],
+    whatHappened:
+      "AI-generated personas attract followers on Instagram and TikTok, then funnel users to paid tiers promising replies, exclusivity, and ongoing relationship narratives; operators may be human while the depicted body is synthetic.",
+    whatHappenedJa:
+      "InstagramやTikTokでAI生成ペルソナがフォロワーを集め、返信・限定性・継続的な関係叙事を約束する有料 tier へ誘導する。表示される身体は合成され、運用は別人物の場合がある。",
+    whyItMatters:
+      "Intimacy premised on responsiveness rather than embodied existence scales through platform distribution and subscription design.",
+    whyItMattersJa:
+      "実在より応答性を前提とする親密性が、プラットフォーム配信とサブスクリプション設計でスケールする。",
+  },
 ];
