@@ -28,7 +28,7 @@ export function FadeInOnScroll({
     ).matches;
 
     if (reducedMotion) {
-      setVisible(true);
+      requestAnimationFrame(() => setVisible(true));
       return;
     }
 

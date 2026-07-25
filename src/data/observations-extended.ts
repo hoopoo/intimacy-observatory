@@ -1133,4 +1133,51 @@ export const extendedObservations: ObservationInput[] = [
     whyItMattersJa:
       "実在より応答性を前提とする親密性が、プラットフォーム配信とサブスクリプション設計でスケールする。",
   },
+  {
+    id: "obs-087",
+    slug: "ai-confessional-intimacy-emerging",
+    title: "Confiding in AI What Cannot Be Said to Humans",
+    titleJa: "誰にも言えない自分をAIに預ける利用",
+    summary:
+      "Users route desire, grievance, loneliness, and bodily unease to conversational AI rather than friends, partners, or public social media.",
+    summaryJa:
+      "欲望、愚痴、孤独、身体の不安を、友人・恋人・SNSではなく対話AIへ向ける利用が増えている。",
+    date: "2026-07-25",
+    country: "Global",
+    status: "emerging",
+    relationshipTypes: ["ai", "platform"],
+    intimacyDimensions: [
+      "conversation",
+      "recognition",
+      "routine",
+      "belonging",
+    ],
+    lifeStages: ["young-adulthood", "midlife-separation", "later-life-solitude"],
+    institutionalGaps: [
+      "platform-terms",
+      "ai-personality-ownership",
+      "disclosure-labeling",
+    ],
+    risks: [
+      "dependency-design",
+      "data-extraction",
+      "subscription-affection",
+    ],
+    genderDesignIssues: ["gendered-product-design"],
+    relatedProjects: [
+      "intimacy-observatory",
+      "scam-folklore",
+      "body-meaning",
+      "market-signals",
+    ],
+    questions: ["q-nonhuman-love", "q-ai-love-or-billing", "q-ai-understanding"],
+    whatHappened:
+      "Users maintain separate chat threads for venting, romance advice, life planning, and bodily concerns; observed cases describe AI as a listener without relational cost.",
+    whatHappenedJa:
+      "愚痴、恋愛相談、人生設計、身体の話を用途別スレッドに分ける。関係コストのない聞き手としてAIが配置される事例が観測されている。",
+    whyItMatters:
+      "Intimacy premised on confession without mutual obligation shifts emotional processing from public platforms to private AI rooms.",
+    whyItMattersJa:
+      "相互性のない告白を前提とする親密性が、公共プラットフォームからAIの私的空間へ移動する。",
+  },
 ];

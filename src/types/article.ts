@@ -51,9 +51,14 @@ export type ArticleSection = {
 export type Article = {
   id: string;
   slug: string;
+  /** Custom path when the article lives outside /articles/[slug] */
+  href?: string;
   title: string;
+  titleEn?: string;
   subtitle?: string;
+  subtitleEn?: string;
   summary: string;
+  heroImage?: string;
   date: string;
   articleType: ArticleType;
   readingTime?: number;

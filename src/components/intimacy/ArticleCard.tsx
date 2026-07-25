@@ -1,20 +1,28 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import type { Article } from "@/types/article";
+import { getArticleHref } from "@/lib/article-href";
 import {
   articleTypeLabel,
   formatArticleDate,
 } from "@/lib/article-display";
+import { StatusBadge } from "@/components/intimacy/StatusBadge";
 
 export function ArticleCard({ article }: { article: Article }) {
   const type = articleTypeLabel[article.articleType];
+  const href = getArticleHref(article);
 
   return (
-    <Link href={`/articles/${article.slug}`} className="group">
+    <Link href={href} className="group">
       <article className="flex h-full flex-col rounded-sm border border-[var(--border)] bg-[var(--paper)] p-5 transition-colors hover:border-[var(--ink-faint)]">
-        <p className="annotation mb-2">
-          {type.en} / {type.ja}
-        </p>
+        <div className="mb-2 flex flex-wrap items-center gap-2">
+          <p className="annotation">
+            {type.en} / {type.ja}
+          </p>
+          {article.observationStatus ? (
+            <StatusBadge status={article.observationStatus} />
+          ) : null}
+        </div>
         <h2 className="text-lg font-semibold leading-snug tracking-tight">
           {article.title}
         </h2>
@@ -67,6 +75,7 @@ export function ArticleCard({ article }: { article: Article }) {
 
 export function ArticleListItem({ article }: { article: Article }) {
   const type = articleTypeLabel[article.articleType];
+  const href = getArticleHref(article);
 
   return (
     <article className="border-b border-[var(--border-subtle)] py-8 last:border-0">
@@ -74,10 +83,7 @@ export function ArticleListItem({ article }: { article: Article }) {
         {type.en} / {type.ja}
       </p>
       <h3 className="text-xl font-semibold tracking-tight">
-        <Link
-          href={`/articles/${article.slug}`}
-          className="hover:underline underline-offset-4"
-        >
+        <Link href={href} className="hover:underline underline-offset-4">
           {article.title}
         </Link>
       </h3>

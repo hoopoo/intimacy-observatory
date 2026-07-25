@@ -1033,6 +1033,7 @@ export const extendedArticles: Article[] = [
       "ai-girlfriend-sells-old-romance",
       "who-owns-the-ai-lover",
       "the-one-who-understands-you-most",
+      "ai-confessional-intimacy",
     ],
     relatedEncounterSlugs: [
       "tinder",
@@ -1286,5 +1287,68 @@ export const extendedArticles: Article[] = [
     ],
     sourceNote:
       "SNS上のAI生成女性、疑似恋愛型アカウント、会員制ファンサイトへの誘導と課金モデルに関する報道を起点として観測した。個別の収益額や「利用者の多くがAIと気づいていない」とする証言は、第三者による独立検証が難しいため、本稿では市場全体の確定的事実としてではなく、親密性ビジネスの変化を示す兆候として扱う。",
+  },
+  {
+    id: "art-015",
+    slug: "ai-confessional-intimacy",
+    href: "/ai-confessional-intimacy",
+    title: "人は、誰にも言えない自分をAIに預け始めた",
+    titleEn:
+      "We Have Started Entrusting AI With the Selves We Cannot Show Anyone",
+    subtitle: "愚痴、欲望、孤独から生まれる「関係責任のない親密性」",
+    subtitleEn:
+      "Confession, desire, loneliness, and intimacy without relational obligation",
+    summary:
+      "愚痴、欲望、孤独は、SNSからAIの部屋へ移動する。関係責任を伴わない相手との間に生まれる、新しい親密性。",
+    seoDescription:
+      "恋愛相談、愚痴、孤独、欲望、身体の不安。生成AIは、人間関係の外側に生まれた「関係責任を伴わない他者」になりつつある。AIとの告白と親密性の変化を観測する。",
+    ogDescription:
+      "愚痴はSNSからAIの部屋へ移動する。生成AIがつくる、関係責任のない親密性。",
+    date: "2026-07-25",
+    articleType: "observation-essay",
+    readingTime: 12,
+    category: "AI Intimacy",
+    categoryJa: "AI親密性",
+    observationStatus: "emerging",
+    themes: [
+      "AI Intimacy",
+      "Confession",
+      "Emotional Infrastructure",
+      "Confessional Media",
+      "Synthetic Companionship",
+      "AI親密性",
+      "告白",
+      "感情インフラ",
+    ],
+    relatedObservationSlugs: [
+      "ai-confessional-intimacy-emerging",
+      "character-ai-parasocial-intimacy",
+      "ai-girlfriend-subscription-prompts",
+      "elderly-daily-ai-after-bereavement",
+    ],
+    relatedArticleSlugs: [
+      "ai-generated-intimacy",
+      "the-one-who-understands-you-most",
+      "who-owns-the-ai-lover",
+    ],
+    relatedProjects: [
+      "intimacy-observatory",
+      "scam-folklore",
+      "body-meaning",
+      "market-signals",
+    ],
+    openQuestions: [
+      "q-nonhuman-love",
+      "q-ai-love-or-billing",
+      "q-ai-understanding",
+    ],
+    body: [
+      {
+        id: "s1",
+        paragraphs: [
+          "生成AIは、仕事を効率化する道具として普及した。しかし、その内側では別の使われ方が始まっている。",
+        ],
+      },
+    ],
   },
 ];
