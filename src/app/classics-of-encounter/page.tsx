@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Suspense } from "react";
 import { ClassicsHero } from "@/components/intimacy/classics-of-encounter/ClassicsHero";
 import { ClassicsIntroCompare } from "@/components/intimacy/classics-of-encounter/ClassicsIntroCompare";
+import { ClassicsThematicOverview } from "@/components/intimacy/classics-of-encounter/ClassicsThematicOverview";
 import { ClassicsCategoryGrid } from "@/components/intimacy/classics-of-encounter/ClassicsCategoryGrid";
 import { ClassicsArchiveExplorer } from "@/components/intimacy/classics-of-encounter/ClassicsArchiveExplorer";
 import { ClassicsClosingSection } from "@/components/intimacy/classics-of-encounter/ClassicsClosingSection";
@@ -21,6 +22,7 @@ export default function ClassicsOfEncounterPage() {
     <div>
       <ClassicsHero />
       <ClassicsIntroCompare />
+      <ClassicsThematicOverview />
       <ClassicsCategoryGrid />
       <Suspense
         fallback={
