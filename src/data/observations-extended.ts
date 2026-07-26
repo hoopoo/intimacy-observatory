@@ -1180,4 +1180,52 @@ export const extendedObservations: ObservationInput[] = [
     whyItMattersJa:
       "相互性のない告白を前提とする親密性が、公共プラットフォームからAIの私的空間へ移動する。",
   },
+  {
+    id: "obs-088",
+    slug: "curiosity-outlets-intimacy-markets",
+    title: "Curiosity Branching into Intimacy Markets",
+    titleJa: "好奇心の分岐と親密性市場",
+    summary:
+      "Openness to experience routes curiosity toward creation, exploration, simulated intimacy, consumption, business, and fraud rather than a single desire type.",
+    summaryJa:
+      "経験への開放性が、好奇心を創作、探索、擬似恋愛、消費、ビジネス、詐欺へ分岐させる。",
+    date: "2026-07-26",
+    country: "Global",
+    status: "observed",
+    relationshipTypes: ["ai", "fictional-character", "platform", "community"],
+    intimacyDimensions: [
+      "recognition",
+      "conversation",
+      "identity",
+      "belonging",
+    ],
+    lifeStages: ["adolescence", "young-adulthood", "midlife-separation"],
+    institutionalGaps: [
+      "platform-terms",
+      "disclosure-labeling",
+      "ai-personality-ownership",
+    ],
+    risks: [
+      "dependency-design",
+      "subscription-affection",
+      "romance-scam",
+      "synthetic-partner-fraud",
+    ],
+    genderDesignIssues: ["gendered-product-design"],
+    relatedProjects: [
+      "intimacy-observatory",
+      "scam-folklore",
+      "body-meaning",
+      "market-signals",
+    ],
+    questions: ["q-nonhuman-love", "q-ai-love-or-billing"],
+    whatHappened:
+      "Users report routing curiosity through AI companions, parasocial creators, matching apps, and fan communities; providers monetize response, memory, and exclusivity.",
+    whatHappenedJa:
+      "AIコンパニオン、配信者、マッチングアプリ、ファンコミュニティを通じて好奇心が分岐し、応答・記憶・限定性が収益化されている。",
+    whyItMatters:
+      "Intimacy markets increasingly sell outlets for curiosity rather than relationships alone.",
+    whyItMattersJa:
+      "親密性市場は、関係そのものより、好奇心の出口を設計・販売する方向へ移っている。",
+  },
 ];

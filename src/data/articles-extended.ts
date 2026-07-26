@@ -1034,6 +1034,7 @@ export const extendedArticles: Article[] = [
       "who-owns-the-ai-lover",
       "the-one-who-understands-you-most",
       "ai-confessional-intimacy",
+      "curiosity-outlets",
     ],
     relatedEncounterSlugs: [
       "tinder",
@@ -1330,6 +1331,7 @@ export const extendedArticles: Article[] = [
       "ai-generated-intimacy",
       "the-one-who-understands-you-most",
       "who-owns-the-ai-lover",
+      "curiosity-outlets",
     ],
     relatedProjects: [
       "intimacy-observatory",
@@ -1347,6 +1349,77 @@ export const extendedArticles: Article[] = [
         id: "s1",
         paragraphs: [
           "生成AIは、仕事を効率化する道具として普及した。しかし、その内側では別の使われ方が始まっている。",
+        ],
+      },
+    ],
+  },
+  {
+    id: "art-016",
+    slug: "curiosity-outlets",
+    href: "/curiosity-outlets",
+    title: "好奇心の出口",
+    titleEn: "The Outlets of Curiosity",
+    subtitle: "人はなぜ、創作し、恋をし、商品をつくるのか",
+    subtitleEn:
+      "Why Curiosity Becomes Creation, Intimacy, Business, and Exploitation",
+    summary:
+      "好奇心は、創作、探索、擬似恋愛、自己変身、消費、ビジネス、詐欺へ分岐する。出口を誰が設計しているかを観測する。",
+    seoDescription:
+      "人間の好奇心は、創作、探索、擬似恋愛、自己変身、消費、ビジネス、詐欺へ分岐する。AI時代の親密性を、「好奇心の出口を誰が設計しているか」という視点から観測する。",
+    ogDescription:
+      "好奇心から創作する人がいる。恋をする人がいる。商品をつくる人がいる。そして、他人の好奇心につけ込む人がいる。",
+    date: "2026-07-26",
+    articleType: "observation-essay",
+    readingTime: 16,
+    category: "Curiosity",
+    categoryJa: "好奇心",
+    observationStatus: "observed",
+    themes: [
+      "curiosity",
+      "openness",
+      "big-five",
+      "ai-companion",
+      "simulated-intimacy",
+      "creator-economy",
+      "emotional-commerce",
+      "romance-scam",
+      "identity",
+      "desire",
+      "好奇心",
+      "開放性",
+      "擬似恋愛",
+      "感情課金",
+    ],
+    relatedObservationSlugs: [
+      "curiosity-outlets-intimacy-markets",
+      "character-ai-parasocial-intimacy",
+      "synthetic-influencer-romance-parasocial",
+      "ai-girlfriend-subscription-prompts",
+      "romance-scam-ai-voice-cloning-2026",
+    ],
+    relatedArticleSlugs: [
+      "ai-generated-intimacy",
+      "ai-confessional-intimacy",
+      "the-one-who-understands-you-most",
+      "who-owns-the-ai-lover",
+    ],
+    relatedEncounterSlugs: ["pairs", "tinder", "telephone-club"],
+    relatedProjects: [
+      "intimacy-observatory",
+      "scam-folklore",
+      "body-meaning",
+      "market-signals",
+    ],
+    openQuestions: [
+      "q-nonhuman-love",
+      "q-ai-love-or-billing",
+      "q-ai-understanding",
+    ],
+    body: [
+      {
+        id: "s1",
+        paragraphs: [
+          "人は、知らないものに惹かれる。好奇心は、一つの入口から始まり、複数の出口へ分岐する。",
         ],
       },
     ],
