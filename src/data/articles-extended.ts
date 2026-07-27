@@ -1333,6 +1333,7 @@ export const extendedArticles: Article[] = [
       "who-owns-the-ai-lover",
       "curiosity-outlets",
       "intimacy-as-passport",
+      "staying-beside-someone-you-cannot-save",
     ],
     relatedProjects: [
       "intimacy-observatory",
@@ -1474,6 +1475,7 @@ export const extendedArticles: Article[] = [
       "ai-confessional-intimacy",
       "the-one-who-understands-you-most",
       "ai-generated-intimacy",
+      "staying-beside-someone-you-cannot-save",
     ],
     relatedProjects: [
       "intimacy-observatory",
@@ -1488,6 +1490,71 @@ export const extendedArticles: Article[] = [
         id: "s1",
         paragraphs: [
           "人は、信頼していない相手について行かない。親密さが形成されると、移動は命令に見えなくなる。",
+        ],
+      },
+    ],
+  },
+  {
+    id: "art-018",
+    slug: "staying-beside-someone-you-cannot-save",
+    href: "/staying-beside-someone-you-cannot-save",
+    title: "救えない人のそばにいる",
+    titleEn: "Staying Beside Someone You Cannot Save",
+    subtitle: "親密さが解決にならないとき",
+    subtitleEn: "When Intimacy Is Not a Solution",
+    summary:
+      "『みいちゃんと山田さん』を起点に、救えない相手と関係を続ける親密さを考察する。ケアと管理、支援と依存、支える側の疲労を観測する。",
+    seoDescription:
+      "『みいちゃんと山田さん』を起点に、救えない相手と関係を続ける親密さを考察する。ケアと管理、支援と依存、保護と自由、支える側の疲労、制度に代わる非公式ケアをIntimacyの視点から観測する。",
+    ogDescription:
+      "誰かを心配することと、その人を救えることは同じではない。救えないことを知りながら、それでも切断しきれない関係を観測する。",
+    date: "2026-07-28",
+    articleType: "observation-essay",
+    readingTime: 20,
+    category: "Intimacy",
+    categoryJa: "親密性",
+    observationStatus: "observed",
+    themes: [
+      "Care",
+      "Friendship",
+      "Dependency",
+      "Rescue",
+      "Vulnerability",
+      "Boundaries",
+      "Night Work",
+      "Loneliness",
+      "Responsibility",
+      "Animation",
+      "ケア",
+      "依存",
+      "救済",
+      "境界線",
+    ],
+    relatedObservationSlugs: [
+      "staying-beside-non-rescue-intimacy",
+      "ai-confessional-intimacy-emerging",
+      "intimacy-as-passport-coercive-movement",
+      "elderly-daily-ai-after-bereavement",
+    ],
+    relatedArticleSlugs: [
+      "intimacy-as-passport",
+      "ai-confessional-intimacy",
+      "curiosity-outlets",
+      "community-after-the-deceased",
+    ],
+    relatedProjects: [
+      "intimacy-observatory",
+      "scam-folklore",
+      "body-meaning",
+      "clean-society",
+      "market-signals",
+    ],
+    openQuestions: ["q-ai-understanding", "q-family-loneliness"],
+    body: [
+      {
+        id: "s1",
+        paragraphs: [
+          "誰かを心配することと、その人を救えることは同じではない。救えないことを知りながら、それでも切断しきれない関係を観測する。",
         ],
       },
     ],

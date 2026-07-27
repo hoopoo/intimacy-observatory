@@ -1281,4 +1281,43 @@ export const extendedObservations: ObservationInput[] = [
     whyItMattersJa:
       "親密さは警戒を下げ、拒否を裏切りに感じさせる移動の許可証として機能しうる。",
   },
+  {
+    id: "obs-090",
+    slug: "staying-beside-non-rescue-intimacy",
+    title: "Intimacy Without Rescue",
+    titleJa: "救済にならない親密さ",
+    summary:
+      "Informal care relationships persist when institutional support is absent, even when problems cannot be solved through intimacy alone.",
+    summaryJa:
+      "制度支援が届かない場所で、問題を解決できなくても非公式な親密関係が続く。",
+    date: "2026-07-28",
+    country: "Japan",
+    status: "observed",
+    relationshipTypes: ["friend", "community", "platform"],
+    intimacyDimensions: [
+      "care",
+      "conversation",
+      "belonging",
+      "recognition",
+    ],
+    lifeStages: ["young-adulthood", "midlife-separation", "care"],
+    institutionalGaps: ["care", "platform-terms"],
+    risks: ["dependency-design"],
+    genderDesignIssues: [],
+    relatedProjects: [
+      "intimacy-observatory",
+      "clean-society",
+      "body-meaning",
+      "market-signals",
+    ],
+    questions: ["q-family-loneliness", "q-ai-understanding"],
+    whatHappened:
+      "Media attention to Mi-chan and Yamada-san highlights non-rescue intimacy: care, dependency, and informal support without institutional resolution.",
+    whatHappenedJa:
+      "『みいちゃんと山田さん』のアニメ化決定が、救済にならない親密さ——ケア、依存、非公式支援——を可視化している。",
+    whyItMatters:
+      "Intimacy can shelter without solving; informal carers bear burdens welfare systems do not absorb.",
+    whyItMattersJa:
+      "親密さは解決にならず避難場所になりうる。非公式な支える側が、福祉が吸収しない負担を背負う。",
+  },
 ];
