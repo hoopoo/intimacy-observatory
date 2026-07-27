@@ -1228,4 +1228,57 @@ export const extendedObservations: ObservationInput[] = [
     whyItMattersJa:
       "親密性市場は、関係そのものより、好奇心の出口を設計・販売する方向へ移っている。",
   },
+  {
+    id: "obs-089",
+    slug: "intimacy-as-passport-coercive-movement",
+    title: "Intimacy as Credential for Coerced Movement",
+    titleJa: "親密さを移動の許可証として使う構造",
+    summary:
+      "Romance, trust, debt, and future promises can route people into movement and dependency before physical coercion appears.",
+    summaryJa:
+      "恋愛、信頼、恩義、将来の約束が、物理的拘束の前に移動と依存へ本人を導く。",
+    date: "2026-07-28",
+    country: "Global",
+    status: "observed",
+    relationshipTypes: ["partner", "community", "platform", "ai"],
+    intimacyDimensions: [
+      "recognition",
+      "conversation",
+      "belonging",
+      "safety",
+    ],
+    lifeStages: [
+      "young-adulthood",
+      "midlife-separation",
+      "later-life-solitude",
+    ],
+    institutionalGaps: [
+      "platform-terms",
+      "disclosure-labeling",
+      "care",
+    ],
+    risks: [
+      "romance-scam",
+      "synthetic-partner-fraud",
+      "dependency-design",
+      "impersonation",
+    ],
+    genderDesignIssues: [],
+    relatedProjects: [
+      "intimacy-observatory",
+      "scam-folklore",
+      "body-meaning",
+      "clean-society",
+      "market-signals",
+    ],
+    questions: ["q-ai-understanding"],
+    whatHappened:
+      "Recruitment and movement proposals are preceded by romantic, familial, or supportive intimacy; digital channels extend trust formation across distance.",
+    whatHappenedJa:
+      "移動や勧誘の提案の前に、恋愛的・家族的・支援的な親密さが形成される。デジタルチャネルが距離を越えた信頼形成を拡張している。",
+    whyItMatters:
+      "Intimacy can function as a passport that lowers suspicion and makes refusal feel like betrayal.",
+    whyItMattersJa:
+      "親密さは警戒を下げ、拒否を裏切りに感じさせる移動の許可証として機能しうる。",
+  },
 ];

@@ -1332,6 +1332,7 @@ export const extendedArticles: Article[] = [
       "the-one-who-understands-you-most",
       "who-owns-the-ai-lover",
       "curiosity-outlets",
+      "intimacy-as-passport",
     ],
     relatedProjects: [
       "intimacy-observatory",
@@ -1402,6 +1403,7 @@ export const extendedArticles: Article[] = [
       "ai-confessional-intimacy",
       "the-one-who-understands-you-most",
       "who-owns-the-ai-lover",
+      "intimacy-as-passport",
     ],
     relatedEncounterSlugs: ["pairs", "tinder", "telephone-club"],
     relatedProjects: [
@@ -1420,6 +1422,72 @@ export const extendedArticles: Article[] = [
         id: "s1",
         paragraphs: [
           "人は、知らないものに惹かれる。好奇心は、一つの入口から始まり、複数の出口へ分岐する。",
+        ],
+      },
+    ],
+  },
+  {
+    id: "art-017",
+    slug: "intimacy-as-passport",
+    href: "/intimacy-as-passport",
+    title: "親密さは、移動の許可証になる",
+    titleEn: "Intimacy Becomes a Passport for Movement",
+    subtitle:
+      "人身取引は、暴力だけで人を動かすのではない。恋愛、家族的信頼、恩義、将来への期待が、本人を自ら移動させる。",
+    summary:
+      "恋愛、友情、家族的信頼、恩義。人身取引では、親密さが警戒を解き、本人を自ら移動させ、拒否しにくくする装置として使われる。",
+    seoDescription:
+      "人身取引は暴力だけで人を動かすのではない。恋愛、友情、恩義、将来への期待が、本人を自ら移動させ、拒否しにくくする構造を観測する。",
+    ogDescription:
+      "恋愛、友情、恩義、将来への期待。親密さが警戒を解き、本人を自ら移動させ、拒否しにくくする構造を観測する。",
+    date: "2026-07-28",
+    articleType: "observation-essay",
+    readingTime: 18,
+    category: "Coercive Intimacy",
+    categoryJa: "強制親密性",
+    observationStatus: "observed",
+    themes: [
+      "Human Trafficking",
+      "Intimacy",
+      "Romance",
+      "Trust",
+      "Coercive Control",
+      "Grooming",
+      "Migration",
+      "Recruitment",
+      "Emotional Dependency",
+      "Consent",
+      "Love Fraud",
+      "Forced Labor",
+      "人身取引",
+      "強制支配",
+      "同意",
+    ],
+    relatedObservationSlugs: [
+      "intimacy-as-passport-coercive-movement",
+      "romance-scam-ai-voice-cloning-2026",
+      "curiosity-outlets-intimacy-markets",
+      "ai-confessional-intimacy-emerging",
+    ],
+    relatedArticleSlugs: [
+      "curiosity-outlets",
+      "ai-confessional-intimacy",
+      "the-one-who-understands-you-most",
+      "ai-generated-intimacy",
+    ],
+    relatedProjects: [
+      "intimacy-observatory",
+      "scam-folklore",
+      "body-meaning",
+      "clean-society",
+      "market-signals",
+    ],
+    openQuestions: ["q-ai-understanding", "q-nonhuman-love"],
+    body: [
+      {
+        id: "s1",
+        paragraphs: [
+          "人は、信頼していない相手について行かない。親密さが形成されると、移動は命令に見えなくなる。",
         ],
       },
     ],
