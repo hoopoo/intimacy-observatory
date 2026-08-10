@@ -1035,6 +1035,7 @@ export const extendedArticles: Article[] = [
       "the-one-who-understands-you-most",
       "ai-confessional-intimacy",
       "curiosity-outlets",
+      "more-connections-less-connection",
     ],
     relatedEncounterSlugs: [
       "tinder",
@@ -1405,6 +1406,7 @@ export const extendedArticles: Article[] = [
       "the-one-who-understands-you-most",
       "who-owns-the-ai-lover",
       "intimacy-as-passport",
+      "more-connections-less-connection",
     ],
     relatedEncounterSlugs: ["pairs", "tinder", "telephone-club"],
     relatedProjects: [
@@ -1476,6 +1478,7 @@ export const extendedArticles: Article[] = [
       "the-one-who-understands-you-most",
       "ai-generated-intimacy",
       "staying-beside-someone-you-cannot-save",
+      "more-connections-less-connection",
     ],
     relatedProjects: [
       "intimacy-observatory",
@@ -1540,6 +1543,7 @@ export const extendedArticles: Article[] = [
       "intimacy-as-passport",
       "ai-confessional-intimacy",
       "curiosity-outlets",
+      "more-connections-less-connection",
       "community-after-the-deceased",
     ],
     relatedProjects: [
@@ -1555,6 +1559,71 @@ export const extendedArticles: Article[] = [
         id: "s1",
         paragraphs: [
           "誰かを心配することと、その人を救えることは同じではない。救えないことを知りながら、それでも切断しきれない関係を観測する。",
+        ],
+      },
+    ],
+  },
+  {
+    id: "art-019",
+    slug: "more-connections-less-connection",
+    href: "/more-connections-less-connection",
+    title: "接続は増えた。親密さは増えなかった。",
+    titleEn: "More Connections, Less Connection",
+    subtitle: "人は、情報だけでは親密になれない。",
+    subtitleEn: "Embodied Intimacy Loss",
+    summary:
+      "接続は増えても、親密さは増えない。画面・条件・最適化が、身体を通じて立ち上がる関係の余白を薄くしている。",
+    seoDescription:
+      "接続は増えても親密さは増えない。声、距離、沈黙、触覚といった身体的条件が、画面・条件・最適化へ置き換えられつつある現代の親密性を観測する。",
+    ogDescription:
+      "人は情報だけでは親密になれない。接続の増加は、親密さの増加を保証しない。",
+    date: "2026-08-11",
+    articleType: "observation-essay",
+    readingTime: 18,
+    category: "Intimacy",
+    categoryJa: "親密性",
+    observationStatus: "observed",
+    themes: [
+      "intimacy",
+      "body",
+      "trust",
+      "presence",
+      "touch",
+      "loneliness",
+      "romance",
+      "relationship formation",
+      "nonverbal communication",
+      "digital mediation",
+      "身体性",
+      "信頼",
+      "孤独",
+      "出会い",
+    ],
+    relatedObservationSlugs: [
+      "more-connections-less-embodied-intimacy",
+      "curiosity-outlets-intimacy-markets",
+      "widowhood-online-support-groups",
+      "character-ai-parasocial-intimacy",
+    ],
+    relatedArticleSlugs: [
+      "staying-beside-someone-you-cannot-save",
+      "curiosity-outlets",
+      "ai-confessional-intimacy",
+      "ai-generated-intimacy",
+    ],
+    relatedEncounterSlugs: ["pairs", "tinder", "pen-pal", "message-dial"],
+    relatedProjects: [
+      "intimacy-observatory",
+      "clean-society",
+      "body-meaning",
+      "market-signals",
+    ],
+    openQuestions: ["q-family-loneliness", "q-nonhuman-love", "q-aromantic"],
+    body: [
+      {
+        id: "s1",
+        paragraphs: [
+          "接続は増えても、親密さは増えない。身体を通じて少しずつ関係が立ち上がるプロセスを、社会が保持しにくくなっている。",
         ],
       },
     ],

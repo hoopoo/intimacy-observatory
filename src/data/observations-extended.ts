@@ -1320,4 +1320,43 @@ export const extendedObservations: ObservationInput[] = [
     whyItMattersJa:
       "親密さは解決にならず避難場所になりうる。非公式な支える側が、福祉が吸収しない負担を背負う。",
   },
+  {
+    id: "obs-091",
+    slug: "more-connections-less-embodied-intimacy",
+    title: "More Connections, Less Embodied Intimacy",
+    titleJa: "接続の増加と身体的親密性の乖離",
+    summary:
+      "Digital mediation expands contact points while weakening voice, presence, touch, and silence as pathways to trust.",
+    summaryJa:
+      "デジタル媒介が接点を増やす一方、声・存在・触覚・沈黙を通じた信頼形成が相対的に弱まっている。",
+    date: "2026-08-11",
+    country: "Global",
+    status: "observed",
+    relationshipTypes: ["platform", "partner", "community"],
+    intimacyDimensions: [
+      "conversation",
+      "recognition",
+      "belonging",
+      "safety",
+    ],
+    lifeStages: ["young-adulthood", "midlife-separation", "later-life-solitude"],
+    institutionalGaps: ["platform-terms", "care"],
+    risks: ["dependency-design"],
+    genderDesignIssues: ["gendered-product-design"],
+    relatedProjects: [
+      "intimacy-observatory",
+      "clean-society",
+      "body-meaning",
+      "market-signals",
+    ],
+    questions: ["q-family-loneliness", "q-aromantic"],
+    whatHappened:
+      "Matching apps, remote work, and curated touch events coexist; embodied cues of trust are increasingly optional or outsourced.",
+    whatHappenedJa:
+      "マッチングアプリ、リモートワーク、身体接触イベントが共存する中、信頼の身体的手がかりが任意化・外部化されている。",
+    whyItMatters:
+      "Connections may rise while embodied intimacy—the thickness of presence—does not.",
+    whyItMattersJa:
+      "接続は増えても、存在の厚みとしての身体的親密性は増えないかもしれない。",
+  },
 ];
