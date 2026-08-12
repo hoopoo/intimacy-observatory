@@ -8,6 +8,8 @@ import { FadeInOnScroll } from "@/components/intimacy/classics-of-encounter/Fade
 import { ConnectedObservatories } from "@/components/intimacy/confessional/ConnectedObservatories";
 import { FinalQuestion } from "@/components/intimacy/confessional/ScrollQuestions";
 import { MoreConnectionsHero } from "./MoreConnectionsHero";
+import { IntimacyLensPanel } from "@/components/intimacy/cross-observer/IntimacyLensPanel";
+import { moreConnectionsToLensInput } from "@/lib/cross-observer/moreConnectionsToLensInput";
 import {
   CLOSING_QUESTION,
   CONNECTED_OBSERVATORIES,
@@ -22,6 +24,8 @@ import {
   SOURCE_NOTE,
   STRUCTURAL_PARADOXES,
 } from "@/data/more-connections-less-connection";
+
+const MORE_CONNECTIONS_LENS_INPUT = moreConnectionsToLensInput();
 
 function SectionQuote({ text, size = "default" as const }: { text: string; size?: "default" | "hero" }) {
   return (
@@ -210,6 +214,8 @@ export function MoreConnectionsPage() {
           <FinalQuestion ja={CLOSING_QUESTION} en="Does our society still leave bodily room for two people to grow intimate, little by little?" />
         </div>
       </section>
+
+      <IntimacyLensPanel input={MORE_CONNECTIONS_LENS_INPUT} className="mt-14 border-t border-[var(--border-subtle)]" />
 
       <section className="mt-14 border-t border-[var(--border-subtle)] pt-10">
         <h2 className="annotation mb-5">Source Boundary</h2>
