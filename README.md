@@ -4,6 +4,13 @@
 
 > **Scam Folklore Observatory（詐欺民俗観測所）とは別プロジェクトです。** 関連プロジェクトとしてリンクしています。
 
+## Cross-Observer
+
+- Version: **v1.2.0** (Production UX Stable)
+- Dependency: `file:./vendor/shiro-cross-observer-1.2.0.tgz`
+- Lens: Buddhist Lens · Production: **LIVE** (`/more-connections-less-connection`)
+- Upgrade: Cross-Observer SoT release docs
+
 ## 技術スタック
 
 - Next.js 16（App Router）

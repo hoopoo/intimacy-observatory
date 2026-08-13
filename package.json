@@ -11,7 +11,7 @@
     "test:cross-observer": "npx --yes tsx --test src/lib/cross-observer/**/*.test.ts"
   },
   "dependencies": {
-    "@shiro/cross-observer": "file:./vendor/shiro-cross-observer-1.1.6.tgz",
+    "@shiro/cross-observer": "file:./vendor/shiro-cross-observer-1.2.0.tgz",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "lucide-react": "^0.469.0",
