@@ -1342,6 +1342,7 @@ export const extendedArticles: Article[] = [
       "body-meaning",
       "market-signals",
       "future-desire",
+      "shortening-of-desire",
     ],
     openQuestions: [
       "q-nonhuman-love",
@@ -1416,6 +1417,7 @@ export const extendedArticles: Article[] = [
       "body-meaning",
       "market-signals",
       "future-desire",
+      "shortening-of-desire",
     ],
     openQuestions: [
       "q-nonhuman-love",
@@ -1620,6 +1622,7 @@ export const extendedArticles: Article[] = [
       "body-meaning",
       "market-signals",
       "future-desire",
+      "shortening-of-desire",
     ],
     openQuestions: ["q-family-loneliness", "q-nonhuman-love", "q-aromantic"],
     body: [
