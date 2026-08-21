@@ -34,6 +34,12 @@ export const RELATED_PROJECTS: RelatedProject[] = [
     url: "https://book.shiroand.io/market_signals",
   },
   {
+    id: "future-desire",
+    name: "When the Future Stops Producing Desire",
+    nameJa: "未来が、欲望を生まなくなるとき",
+    url: "https://entangled.shiroand.io/observations/when-the-future-stops-producing-desire",
+  },
+  {
     id: "shortening-of-desire",
     name: "The Shortening of Desire",
     nameJa: "欲望の時間単位が短くなる市場",
