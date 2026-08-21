@@ -33,6 +33,12 @@ export const RELATED_PROJECTS: RelatedProject[] = [
     name: "Market Signals",
     url: "https://book.shiroand.io/market_signals",
   },
+  {
+    id: "future-desire",
+    name: "When the Future Stops Producing Desire",
+    nameJa: "未来が、欲望を生まなくなるとき",
+    url: "https://entangled.shiroand.io/observations/when-the-future-stops-producing-desire",
+  },
 ];
 
 export function getRelatedProject(id: string): RelatedProject | undefined {

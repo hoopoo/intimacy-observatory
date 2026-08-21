@@ -1341,6 +1341,7 @@ export const extendedArticles: Article[] = [
       "scam-folklore",
       "body-meaning",
       "market-signals",
+      "future-desire",
     ],
     openQuestions: [
       "q-nonhuman-love",
@@ -1414,6 +1415,7 @@ export const extendedArticles: Article[] = [
       "scam-folklore",
       "body-meaning",
       "market-signals",
+      "future-desire",
     ],
     openQuestions: [
       "q-nonhuman-love",
@@ -1617,6 +1619,7 @@ export const extendedArticles: Article[] = [
       "clean-society",
       "body-meaning",
       "market-signals",
+      "future-desire",
     ],
     openQuestions: ["q-family-loneliness", "q-nonhuman-love", "q-aromantic"],
     body: [
